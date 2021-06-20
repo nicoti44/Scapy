@@ -14,7 +14,7 @@ print (30 * '-')
 
 print ("1. ARP_Spoofing Attack (MiTM)")
 
-print ("2. Reboot the server")
+print ("2. icmp flood DOS")
 
 print (30 * '-')
 
@@ -50,9 +50,9 @@ if choice == 1:
 
 elif choice == 2:
 
-        print ("a completer")
+        print ("Lancement de l'attauqe flood icmp")
 
-
+        os.system(" python /home/ni/Documments/Bam/Bam/Icmpflood.py ")
 
 
 
