@@ -21,12 +21,9 @@ def icmp_startattack():
 	
 
         
-    # os command to start attack 
-    # where n points to time b/w per echo request and reply 
-    # and n points to the number of packets with which every icmp request is to be sent to the h
-
+ 
 	
 
-icmp_startattack()  # called the main attack execution function 
+icmp_startattack()  
 
 print "attaque finis"
